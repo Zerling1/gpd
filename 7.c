@@ -1,13 +1,14 @@
-// Obliczanie liczb Fibonacciego za pomoc¹ potêgowania macierzy
+// Obliczanie liczb Fibonacciego za pomocÅ¡ potÄ™gowania macierzy
 // Data: 19.02.2012
-// (C)2012 mgr Jerzy Wa³aszek
+//sdgmrsiugjijiugudshiugsdjgiudsg
+// (C)2012 mgr Jerzy WaÅ‚aszek
 //-------------------------------------------------------------
 
 #include <iostream>
 
 using namespace std;
 
-// Oblicza n-t¹ liczbê Fibonacciego
+// Oblicza n-tÅ¡ liczbÄ™ Fibonacciego
 //---------------------------------
 unsigned long long fibo(int n)
 {
@@ -22,18 +23,18 @@ unsigned long long fibo(int n)
   q11 = q12 = q21 = 1;
   q22 = 0;
 
-  // w macierzy W tworzymy macierz jednostkow¹
+  // w macierzy W tworzymy macierz jednostkowÅ¡
 
   w11 = w22 = 1;
   w12 = w21 = 0;
 
-  n--;      // bêdzie nam potrzebna n-1 potêga Q
+  n--;      // bÄ™dzie nam potrzebna n-1 potÄ™ga Q
 
   while(n)
   {
      if(n & 1)
      {
-       // wykonujemy mno¿enie P = W x Q
+       // wykonujemy mnoÅ¼enie P = W x Q
 
        p11 = w11*q11 + w12 * q21; p12 = w11*q12 + w12 * q22;
        p21 = w21*q11 + w22 * q21; p22 = w21*q12 + w22 * q22;
@@ -64,7 +65,7 @@ unsigned long long fibo(int n)
   return w11;
 }
 
-// Program g³ówny
+// Program gÅ‚Ã³wny
 //---------------
 
 int main()
