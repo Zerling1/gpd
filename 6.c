@@ -1,6 +1,7 @@
-// Potêgowanie macierzy
+// PotÄ™gowanie macierzy
 // Data: 9.02.2011
-// (C)2012 mgr Jerzy Wa³aszek
+//uihyiuhuguguguguy
+// (C)2012 mgr Jerzy WaÅ‚aszek
 //-----------------------------
 
 #include <iostream>
@@ -8,7 +9,7 @@
 
 using namespace std;
 
-// procedura mno¿enia macierzy
+// procedura mnoÅ¼enia macierzy
 // C = A x B
 //----------------------------
 void mnoz(int n, double ** A, double ** B, double ** C)
@@ -35,7 +36,7 @@ void przepisz(int n, double ** A, double ** B)
     for(j = 0; j < n; j++) B[i][j] = A[i][j];
 }
 
-// procedura ustawia w macierzy A macierz jednostkow¹
+// procedura ustawia w macierzy A macierz jednostkowÄ…
 //---------------------------------------------------
 void jednostkowa(int n, double ** A)
 {
@@ -48,7 +49,7 @@ void jednostkowa(int n, double ** A)
   }
 }
 
-// procedura wylicza potêgê k-t¹ macierzy A
+// procedura wylicza potÄ™gÄ™ k-tÄ… macierzy A
 //-----------------------------------------
 void potega(int k, int n, double ** A)
 {
@@ -68,11 +69,11 @@ void potega(int k, int n, double ** A)
       W[i] = new double[n];
     }
 
-    // macierz A zapamiêtujemy w P
+    // macierz A zapamiÄ™tujemy w P
 
     przepisz(n,A,P);
 
-    // w pêtli wykonujemy kolejne mno¿enia - wynik zawsze w A
+    // w pÄ™tli wykonujemy kolejne mnoÅ¼enia - wynik zawsze w A
 
     for(i = 2; i <= k; i++)
     {
@@ -92,7 +93,7 @@ void potega(int k, int n, double ** A)
   }
 }
 
-//*** PROGRAM G£ÓWNY ***
+//*** PROGRAM GÅÃ“WNY ***
 //----------------------
 
 int main()
@@ -102,11 +103,11 @@ int main()
 
   cout << fixed << setprecision(2);
 
-  // wczytujemy wyk³adnik k oraz stopieñ macierzy n
+  // wczytujemy wykÅ‚adnik k oraz stopieÅ„ macierzy n
 
   cin >> k >> n;
 
-  // tworzymy macierz dynamiczn¹ i wczytujemy dane wierszami
+  // tworzymy macierz dynamicznÄ… i wczytujemy dane wierszami
 
   A = new double * [n];
   for(i = 0; i < n; i++)
@@ -115,11 +116,11 @@ int main()
     for(j = 0; j < n; j++) cin >> A[i][j];
   }
 
-  // obliczamy k-t¹ potêgê A
+  // obliczamy k-tÄ… potÄ™gÄ™ A
 
   potega(k,n,A);
 
-  // wyœwietlamy wyniki
+  // wyÅ›wietlamy wyniki
 
   cout << endl;
 
