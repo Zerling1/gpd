@@ -1,6 +1,7 @@
-// Mno¿enie macierzy przez skalar
+// MnoÂ¿enie macierzy przez skalar
 // Data: 6.01.2010
-// (C)2012 mgr Jerzy Wa³aszek
+// wiecej commitow
+// (C)2012 mgr Jerzy WaÂ³aszek
 //-----------------------------
 
 #include <iostream>
@@ -21,7 +22,7 @@ int main()
   m = rand() % 8 + 2;
   n = rand() % 8 + 2;
 
-  // tworzymy tablicê wskaŸników
+  // tworzymy tablicÃª wskaÅ¸nikÃ³w
 
    A = new int * [m];
 
@@ -29,7 +30,7 @@ int main()
 
   for(iw = 0; iw < m; iw++) A[iw] = new int[n];
 
-  // wype³niamy macierz losowymi liczbami
+  // wypeÂ³niamy macierz losowymi liczbami
 
   for(iw = 0; iw < m; iw++)
     for(ik = 0; ik < n; ik++) A[iw][ik] = rand() % 100;
@@ -38,7 +39,7 @@ int main()
 
   c = rand() % 21 - 10;
 
-  // wyœwietlamy macierz
+  // wyÅ“wietlamy macierz
 
   cout << "m = " << m << endl
        << "n = " << n << endl << endl;
@@ -50,16 +51,16 @@ int main()
     cout << endl;
   }
 
-  // wyœwietlamy skalar
+  // wyÅ“wietlamy skalar
 
   cout << endl << "c = " << c << endl << endl;
 
-  // mno¿ymy macierz przez skalar
+  // mnoÂ¿ymy macierz przez skalar
 
   for(iw = 0; iw < m; iw++)
     for(ik = 0; ik < n; ik++) A[iw][ik] *= c;
 
-  // wyœwietlamy macierz wynikow¹
+  // wyÅ“wietlamy macierz wynikowÂ¹
 
   for(iw = 0; iw < m; iw++)
   {
@@ -68,7 +69,7 @@ int main()
     cout << endl;
   }
 
-  // koniec, zwalniamy pamiêæ zajêt¹ przez macierz
+  // koniec, zwalniamy pamiÃªÃ¦ zajÃªtÂ¹ przez macierz
 
   for(iw = 0; iw < m; iw++) delete [] A[iw];
   delete [] A;
