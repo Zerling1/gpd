@@ -3,7 +3,8 @@
 // wiecej commitow
 // (C)2012 mgr Jerzy Wa³aszek
 //-----------------------------
-
+//fffffff
+// huhhhh8jjhjhugtu
 #include <iostream>
 #include <iomanip>
 #include <cstdlib>
