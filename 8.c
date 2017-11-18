@@ -1,6 +1,7 @@
 // Eliminacja Gaussa
 // Data: 15.02.2010
-// (C)2012 mgr Jerzy Wa³aszek
+//XDXDXDXDXD
+// (C)2012 mgr Jerzy WaÂ³aszek
 //-----------------------------
 
 #include <iostream>
@@ -9,7 +10,7 @@
 
 using namespace std;
 
-const double eps = 1e-12; // sta³a przybli¿enia zera
+const double eps = 1e-12; // staÂ³a przybliÂ¿enia zera
 
 // Funkcja realizuje algorytm eliminacji Gaussa
 //---------------------------------------------
@@ -19,7 +20,7 @@ bool gauss(int n, double ** AB, double * X)
   int i,j,k;
   double m,s;
 
-  // eliminacja wspó³czynników
+  // eliminacja wspÃ³Â³czynnikÃ³w
 
   for(i = 0; i < n - 1; i++)
   {
@@ -45,7 +46,7 @@ bool gauss(int n, double ** AB, double * X)
   return true;
 }
 
-// Program g³ówny
+// Program gÂ³Ã³wny
 //---------------
 
 int main()
@@ -55,7 +56,7 @@ int main()
 
   cout << setprecision(4) << fixed;
   
-  // odczytujemy liczbê niewiadomych
+  // odczytujemy liczbÃª niewiadomych
 
   cin >> n;
 
@@ -80,7 +81,7 @@ int main()
   else
     cout << "DZIELNIK ZERO\n";
 
-  // usuwamy macierze z pamiêci
+  // usuwamy macierze z pamiÃªci
 
   for(i = 0; i < n; i++) delete [] AB[i];
   delete [] AB;
