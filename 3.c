@@ -1,11 +1,12 @@
 // Transponowanie macierzy
 // Data: 11.01.2010
-// (C)2012 mgr Jerzy Wa³aszek
+// (C)2012 mgr Jerzy WaÂ³aszek
 //-----------------------------
 
 #include <iostream>
 #include <iomanip>
 #include <cstdlib>
+//fffffffffffffffffffffff
 #include <time.h>
 
 using namespace std;
@@ -21,7 +22,7 @@ int main()
   m = rand() % 7 + 2;
   n = rand() % 7 + 2;
 
-  // tworzymy tablicê wskaŸników
+  // tworzymy tablicÃª wskaÅ¸nikÃ³w
 
    A = new int * [m];
    B = new int * [n];
@@ -31,12 +32,12 @@ int main()
   for(iw = 0; iw < m; iw++) A[iw] = new int[n];
   for(iw = 0; iw < n; iw++) B[iw] = new int[m];
 
-  // wype³niamy macierz A losowymi liczbami
+  // wypeÂ³niamy macierz A losowymi liczbami
 
   for(iw = 0; iw < m; iw++)
     for(ik = 0; ik < n; ik++) A[iw][ik] = rand() % 199 - 99;
 
-  // wyœwietlamy macierz A
+  // wyÅ“wietlamy macierz A
 
   cout << "m = " << m << endl
        << "n = " << n << endl << endl
@@ -53,7 +54,7 @@ int main()
   for(iw = 0; iw < m; iw++)
     for(ik = 0; ik < n; ik++) B[ik][iw] = A[iw][ik];
 
-  // wyœwietlamy macierz wynikow¹
+  // wyÅ“wietlamy macierz wynikowÂ¹
 
   cout << endl << "Matrix B = AT:" << endl;
   
@@ -63,7 +64,7 @@ int main()
     cout << endl;
   }
 
-  // koniec, zwalniamy pamiêæ zajêt¹ przez macierze
+  // koniec, zwalniamy pamiÃªÃ¦ zajÃªtÂ¹ przez macierze
 
   for(iw = 0; iw < m; iw++) delete [] A[iw];
   for(iw = 0; iw < n; iw++) delete [] B[iw];
