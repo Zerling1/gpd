@@ -1,6 +1,7 @@
 // Dodawanie macierzy
 // Data: 7.01.2010
-// (C)2012 mgr Jerzy Wa³aszek
+// uttautjsafjaojfijfiojafao
+// (C)2012 mgr Jerzy WaÂ³aszek
 //-----------------------------
 
 #include <iostream>
@@ -21,7 +22,7 @@ int main()
   m = rand() % 5 + 2;
   n = rand() % 5 + 2;
 
-  // tworzymy tablicê wskaŸników
+  // tworzymy tablicÃª wskaÅ¸nikÃ³w
 
    A = new int * [m];
    B = new int * [m];
@@ -36,7 +37,7 @@ int main()
     C[iw] = new int[n];
   }
 
-  // wype³niamy macierze A i B losowymi liczbami
+  // wypeÂ³niamy macierze A i B losowymi liczbami
 
   for(iw = 0; iw < m; iw++)
     for(ik = 0; ik < n; ik++)
@@ -45,7 +46,7 @@ int main()
       B[iw][ik] = rand() % 100;
     }
 
-  // wyœwietlamy macierze A i B
+  // wyÅ“wietlamy macierze A i B
 
   cout << "m = " << m << endl
        << "n = " << n << endl << endl
@@ -73,7 +74,7 @@ int main()
     for(ik = 0; ik < n; ik++)
       C[iw][ik] = A[iw][ik] + B[iw][ik];
 
-  // wyœwietlamy macierz wynikow¹
+  // wyÅ“wietlamy macierz wynikowÂ¹
 
   cout << endl << "Matrix C = A + B:" << endl;
   
@@ -84,7 +85,7 @@ int main()
     cout << endl;
   }
 
-  // koniec, zwalniamy pamiêæ zajêt¹ przez macierze
+  // koniec, zwalniamy pamiÃªÃ¦ zajÃªtÂ¹ przez macierze
 
   for(iw = 0; iw < m; iw++)
   {
