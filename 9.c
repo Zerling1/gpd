@@ -1,6 +1,6 @@
-// Rozk³ad LU algorytmem Doolitle'a
+// RozkÂ³ad LU algorytmem Doolitle'a
 // Data: 21.03.2010
-// (C)2012 mgr Jerzy Wa³aszek
+// (C)2012 mgr Jerzy WaÂ³aszek
 //-----------------------------
 
 #include <iostream>
@@ -11,7 +11,7 @@ using namespace std;
 
 const double eps = 1e-12;
 
-// Funkcja realizuje algorytm Doolitle'a rozk³adu LU
+// Funkcja realizuje algorytm Doolitle'a rozkÂ³adu LU
 //--------------------------------------------------
 bool Doolitle(int n, double ** A)
 {
@@ -34,10 +34,11 @@ bool Doolitle(int n, double ** A)
       A[i][j] = (A[i][j] - s) / A[j][j];
     }
   }
+  //jjiiiiii
   return true;
 }
 
-// Program g³ówny
+// Program gÂ³Ã³wny
 
 int main()
 {
@@ -46,7 +47,7 @@ int main()
   
   cout << setprecision(3) << fixed;
   
-// odczytujemy stopieñ macierzy A
+// odczytujemy stopieÃ± macierzy A
 
   cin >> n;
 
@@ -60,7 +61,7 @@ int main()
   for(i = 0; i < n; i++)
     for(j = 0; j < n; j++) cin >> A[i][j];
 
-  // wyznaczamy rozk³ad LU macierzy A
+  // wyznaczamy rozkÂ³ad LU macierzy A
 
   if(Doolitle(n,A))
     for(i = 0; i < n; i++)
@@ -72,7 +73,7 @@ int main()
   else
     cout << "DZIELNIK ZERO\n";
 
-  // usuwamy macierz z pamiêci
+  // usuwamy macierz z pamiÃªci
 
   for(i = 0; i < n; i++) delete [] A[i];
   delete [] A;
