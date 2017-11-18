@@ -1,6 +1,7 @@
 // Transponowanie macierzy kwadratowej
 // Data: 11.01.2010
-// (C)2012 mgr Jerzy Wa³aszek
+// ggdyyy6edit
+// (C)2012 mgr Jerzy WaÂ³aszek
 //-----------------------------
 
 #include <iostream>
@@ -16,11 +17,11 @@ main()
 
   srand((unsigned)time(NULL));
 
-  // losujemy stopieñ macierzy
+  // losujemy stopieÃ± macierzy
 
   n = rand() % 7 + 2;
 
-  // tworzymy tablicê wskaŸników
+  // tworzymy tablicÃª wskaÅ¸nikÃ³w
 
    A = new int * [n];
 
@@ -28,12 +29,12 @@ main()
 
   for(i = 0; i < n; i++) A[i] = new int[n];
 
-  // wype³niamy macierz A losowymi liczbami
+  // wypeÂ³niamy macierz A losowymi liczbami
 
   for(i = 0; i < n; i++)
     for(j = 0; j < n; j++) A[i][j] = rand() % 199 - 99;
 
-  // wyœwietlamy macierz A
+  // wyÅ“wietlamy macierz A
 
   cout << "n = " << n << endl << endl
        << "Matrix A:" << endl;
@@ -54,7 +55,7 @@ main()
       A[j][i] = t;
     }
 
-  // wyœwietlamy macierz A
+  // wyÅ“wietlamy macierz A
 
   cout << endl << "Matrix AT:" << endl;
   
@@ -64,7 +65,7 @@ main()
     cout << endl;
   }
 
-  // koniec, zwalniamy pamiêæ zajêt¹ przez macierz
+  // koniec, zwalniamy pamiÃªÃ¦ zajÃªtÂ¹ przez macierz
 
   for(i = 0; i < n; i++) delete [] A[i];
   delete [] A;
