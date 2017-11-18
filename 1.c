@@ -1,6 +1,11 @@
 // Mno¿enie macierzy przez skalar
+
 // Data: 6.01.2010
 // wiecej commitow
+
+// dodam cos tutaj
+// Data: 6.01.2010
+
 // (C)2012 mgr Jerzy Wa³aszek
 //-----------------------------
 //fffffff

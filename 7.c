@@ -1,6 +1,10 @@
 // Obliczanie liczb Fibonacciego za pomocš potęgowania macierzy
 // Data: 19.02.2012
+
 //kjniasjiofjoasofasoijf
+
+//sdgmrsiugjijiugudshiugsdjgiudsg
+
 // (C)2012 mgr Jerzy Wałaszek
 //-------------------------------------------------------------
 

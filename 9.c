@@ -1,5 +1,9 @@
 // Rozk³ad LU algorytmem Doolitle'a
 // Data: 21.03.2010
+
+
+//ffffffffffffffffffffeeeeeeeeeeeeeeeeeeeeeeee
+
 // (C)2012 mgr Jerzy Wa³aszek
 //-----------------------------
 

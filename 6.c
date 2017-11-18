@@ -1,6 +1,10 @@
 // Potęgowanie macierzy
 // Data: 9.02.2011
+
 //uihyiuhuguguguguy
+
+// uhiuhhgyugugugugyu
+
 // (C)2012 mgr Jerzy Wałaszek
 //-----------------------------
 

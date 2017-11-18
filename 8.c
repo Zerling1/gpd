@@ -1,6 +1,10 @@
 // Eliminacja Gaussa
 // Data: 15.02.2010
+
 //XDXDXDXDXD
+
+//ffffffffffffffffffffffffffffffff
+
 // (C)2012 mgr Jerzy Wa³aszek
 //-----------------------------
 

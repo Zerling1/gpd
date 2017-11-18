@@ -1,8 +1,11 @@
 // Transponowanie macierzy kwadratowej
 // Data: 11.01.2010
+
 //gg
 //
 //
+// ggdyyy6edit
+
 // (C)2012 mgr Jerzy Wa³aszek
 //-----------------------------
 
