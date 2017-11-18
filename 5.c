@@ -1,6 +1,10 @@
 // Mno¿enie macierzy
 // Data: 26.01.2010
+
+//ffffffffffffffffffffffffff
+
 // kkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk
+
 // (C)2012 mgr Jerzy Wa³aszek
 //-----------------------------
 

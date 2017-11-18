@@ -1,6 +1,9 @@
 // Rozk³ad LU algorytmem Doolitle'a
 // Data: 21.03.2010
+
+
 //ffffffffffffffffffffeeeeeeeeeeeeeeeeeeeeeeee
+
 // (C)2012 mgr Jerzy Wa³aszek
 //-----------------------------
 
@@ -35,6 +38,7 @@ bool Doolitle(int n, double ** A)
       A[i][j] = (A[i][j] - s) / A[j][j];
     }
   }
+  //jjiiiiii
   return true;
 }
 

@@ -1,6 +1,10 @@
 // Dodawanie macierzy
 // Data: 7.01.2010
+
+//ffsaf
+
 // uttautjsafjaojfijfiojafao
+
 // (C)2012 mgr Jerzy Wa³aszek
 //-----------------------------
 

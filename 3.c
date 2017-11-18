@@ -1,12 +1,16 @@
 // Transponowanie macierzy
 // Data: 11.01.2010
+
+
 // razvdwa trzy
+
 // (C)2012 mgr Jerzy Wa³aszek
 //-----------------------------
 
 #include <iostream>
 #include <iomanip>
 #include <cstdlib>
+//fffffffffffffffffffffff
 #include <time.h>
 
 using namespace std;
