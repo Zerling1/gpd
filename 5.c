@@ -1,6 +1,7 @@
-// Mno¿enie macierzy
+// MnoÂ¿enie macierzy
 // Data: 26.01.2010
-// (C)2012 mgr Jerzy Wa³aszek
+// kkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk
+// (C)2012 mgr Jerzy WaÂ³aszek
 //-----------------------------
 
 #include <iostream>
@@ -42,7 +43,7 @@ int main()
 
   cout << endl;
 
-  // mno¿ymy macierz A przez B i wynik umieszczamy w C
+  // mnoÂ¿ymy macierz A przez B i wynik umieszczamy w C
 
   for(i = 0; i < m; i++)
     for(j = 0; j < p; j++)
@@ -52,7 +53,7 @@ int main()
       C[i][j] = s;
     }
 
-  // wyprowadzamy wynik mno¿enia w C
+  // wyprowadzamy wynik mnoÂ¿enia w C
 
   cout <<  "C = A x B:\n";
 
@@ -62,7 +63,7 @@ int main()
     cout << endl;
   }
 
-  // zwalniamy pamiêæ zajêt¹ przez macierze
+  // zwalniamy pamiÃªÃ¦ zajÃªtÂ¹ przez macierze
 
   for(i = 0; i < m; i++)
   {
